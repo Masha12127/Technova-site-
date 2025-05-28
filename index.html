@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova - Future-Ready Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="script.js" defer></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+
+  <!-- Translate Widget -->
+  <div id="translate-widget"></div>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,sw,fr,es,de',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'translate-widget');
+    }
+  </script>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-split">
+      <ul class="nav-left">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+      <h1 class="logo centered-logo">TechNova</h1>
+      <ul class="nav-right">
+        <li><a href="#team">Team</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero futuristic-hero" id="home">
+    <div class="container">
+      <h2>Welcome to TechNova</h2>
+      <p>Innovating AI, robotics, and cloud systems for a smarter tomorrow.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- About -->
+<section class="container" id="about">
+  <h3>About TechNova</h3>
+  
+  <p>At TechNova, we're not just a tech company — we're a movement toward smarter, more human-centered innovation. Founded in 2028, our mission is to bridge the gap between cutting-edge technology and real-world solutions that improve lives.</p>
+  
+  <p>From artificial intelligence to robotics and secure cloud systems, our tools are designed to help organizations think bigger, scale faster, and operate with more intelligence than ever before. We prioritize ethical development, inclusive design, and measurable impact.</p>
+  
+  <p>We work with startups, global enterprises, NGOs, and educational institutions to build future-proof systems tailored to specific needs — from smart agriculture drones to medical AI triage assistants and next-gen warehouse automation.</p>
+  
+  <p>Our global team of engineers, designers, researchers, and strategists come from 12+ countries, blending diverse experiences to fuel disruptive innovation. We believe that the future is not something to wait for — it’s something we build.</p>
+  
+  <p><strong>Vision:</strong> To power a future where ethical tech drives opportunity, efficiency, and empowerment for all.</p>
+  <p><strong>Core Values:</strong> Transparency, Inclusion, Curiosity, Responsibility, and Boldness.</p>
+  
+  <p>TechNova is your partner in building meaningful technology for a smarter planet.</p>
+</section>
+
+  <!-- Services -->
+  <section class="container" id="services">
+    <h3>Our Services</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="images/ai-chip.png" alt="AI Integration">
+        <h4>AI Integration</h4>
+        <p>Build smart systems for automation, predictions, and personalization.</p>
+      </div>
+      <div class="card">
+        <img src="images/robotics.png" alt="Robotics">
+        <h4>Robotics</h4>
+        <p>Intelligent robotics for warehousing, delivery, and operations.</p>
+      </div>
+      <div class="card">
+        <img src="images/cloud-network.png" alt="Cloud Networking">
+        <h4>Cloud Systems</h4>
+        <p>Secure, scalable cloud infrastructure for apps and devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="container" id="team">
+    <h3>Meet the Team</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="images/founder.png" alt="Peter Macharia">
+        <h4>Peter Macharia</h4>
+        <p>Founder & AI Architect</p>
+      </div>
+      <div class="card">
+        <img src="images/engineer.png" alt="Lewis Triad">
+        <h4>Lewis Triad</h4>
+        <p>Lead Engineer</p>
+      </div>
+      <div class="card">
+        <img src="images/security.png" alt="Nick Omari">
+        <h4>Nick Omari</h4>
+        <p>Cybersecurity Lead</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section class="container" id="resources">
+    <h3>Resources</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="images/articles.png" alt="Articles">
+        <h4>Articles</h4>
+        <p>Explore AI, cybersecurity, and innovation insights.</p>
+      </div>
+      <div class="card">
+        <img src="images/toolkit.png" alt="Toolkit">
+        <h4>Toolkits</h4>
+        <p>Download free guides and checklists.</p>
+      </div>
+      <div class="card">
+        <img src="images/webinar.png" alt="Webinars">
+        <h4>Webinars</h4>
+        <p>Join live workshops with experts worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h3>Client Testimonials</h3>
+      <div class="testimonial-slider">
+        <div class="testimonial-slide">
+          <p>"TechNova helped us increase AI deployment by 3x."</p>
+          <footer>&mdash; FinTech CTO</footer>
+        </div>
+        <div class="testimonial-slide">
+          <p>"Their robots cut warehouse time by 40%."</p>
+          <footer>&mdash; Cargo Manager</footer>
+        </div>
+        <div class="testimonial-slide">
+          <p>"Great support and fast delivery."</p>
+          <footer>&mdash; App Startup CEO</footer>
+        </div>
+        <div class="testimonial-slide">
+  <p>"The best team i have encountered so far."</p>
+  <footer>&mdash; inspection officer</footer>
+</div>
+      </div>
+      <div class="slider-controls">
+        <button id="prev">&#8592;</button>
+        <button id="next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact + FAQ -->
+  <section class="container" id="contact">
+    <h3>Contact Us</h3>
+    <form class="futuristic-form">
+      <label>Email</label>
+      <input type="email" placeholder="you@technova.ai" required />
+      <label>Phone</label>
+      <input type="tel" placeholder="+123 456 7890" required />
+      <label>Message</label>
+      <textarea rows="5" placeholder="Your message..." required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <h3>FAQs</h3>
+    <div class="faq">
+      <div class="faq-question">Do you offer custom AI models?</div>
+      <div class="faq-answer" style="display:none;">Yes! All solutions are custom-built.</div>
+      <div class="faq-question">How long does a project take?</div>
+      <div class="faq-answer" style="display:none;">Most MVPs are delivered in under 30 days.</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2035 TechNova. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
